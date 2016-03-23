@@ -47,7 +47,6 @@ public class MainActivity extends BaseActivity implements
 	ContactManFragment contactFragment = null;
 	PersonalCenterFragment personalFragment = null;
 	MyFragmentPagerAdapter fgPagerAdapter = null;
-
 	NewMsgBroadCastReceiver newBroadcast;
 	TagBroadcastReceiver tagBroadcast;
 
@@ -61,8 +60,9 @@ public class MainActivity extends BaseActivity implements
 		tagBroadcast = new TagBroadcastReceiver();
 		registBroadCast(newBroadcast, BmobConfig.BROADCAST_NEW_MESSAGE, 5);
 		registBroadCast(tagBroadcast, BmobConfig.BROADCAST_ADD_USER_MESSAGE, 5);
+		System.out.println("test git");
 	}
- //初始化UI控件
+       //初始化UI控件
 	@SuppressLint("NewApi")
 	@Override
 	public void initViews() {
