@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_find_name"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/base_edit_input"
+            android:drawableLeft="@drawable/icon_msg_search"
+            android:hint="搜索.."
+            android:paddingLeft="3dp"
+            android:singleLine="true"
+            android:textColorHint="#b3b3b3"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="4dp"
+        android:background="#bebebe"
+        />
+     <LinearLayout
+         android:id="@+id/ll_new_friend"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <ImageView 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/new_friend_icon"
+            />
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="新朋友"
+            android:textSize="19sp"
+            android:gravity="center_vertical"
+            android:textColor="#000000" />
+     
+      <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:text="有新朋友"
+            android:textSize="5sp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:textColor="@color/brick_red" />
+       
+
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#bebebe"
+        />
+    
+    <ListView
+        android:id="@+id/lv_contact_man"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:divider="@null"
+        android:dividerHeight="0.5dp" >
+    </ListView>
+
+</LinearLayout>

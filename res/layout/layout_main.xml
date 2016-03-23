@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/div_white" />
+    
+   <RadioGroup
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_message"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_message"
+            android:text="消息" />
+
+        <RadioButton
+            android:id="@+id/rb_contact"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_contact"
+            android:text="联系人" />
+
+        <RadioButton
+            android:id="@+id/rb_personalcenter"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_personalcenter"
+            android:text="空间" />
+
+    </RadioGroup>
+
+</LinearLayout>

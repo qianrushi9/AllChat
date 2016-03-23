@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2" >
+
+    <include
+        android:id="@+id/login_title"
+        layout="@layout/layout_top" />
+  
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="40dp"
+        android:background="#bebebe"
+        />
+    
+    <com.chat.app.view.DeletableEditText 
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/et_user_icon"
+        android:drawableRight="@drawable/user_delete"
+        android:singleLine="true"
+        android:hint="用户名"
+        android:background="@null"
+        /> 
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bebebe"
+        />
+    
+     <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#bebebe"
+        />
+     <com.chat.app.view.DeletableEditText 
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/et_password_icon"
+        android:drawableRight="@drawable/user_delete"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:hint="密码"
+        android:background="@null"
+        /> 
+     <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bebebe"
+        />
+     <LinearLayout 
+         android:orientation="horizontal"
+         android:gravity="center_horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="60dp"
+         >
+      <Button
+        android:id="@+id/bt_register"
+        style="@style/common_btn_style"
+        android:enabled="true"
+        android:text="注册"
+         />
+    </LinearLayout>
+    
+   
+
+</LinearLayout>
