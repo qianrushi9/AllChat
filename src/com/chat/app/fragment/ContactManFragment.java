@@ -18,6 +18,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import cn.bmob.im.bean.BmobChatUser;
 import cn.bmob.im.db.BmobDB;
+
+import com.chat.app.activity.DetailInfoActivity;
 import com.chat.app.activity.NewFriendActivity;
 import com.chat.app.activity.R;
 import com.chat.app.adapter.UserAdapter;
@@ -161,9 +163,13 @@ public class ContactManFragment extends BaseFragment implements OnItemClickListe
 	}
 
 	@Override
-	public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+	public void onItemClick(AdapterView<?> arg0, View view, int position, long arg3) {
 		// TODO Auto-generated method stub
-		
+		User user = (User) userAdapter.getItem(position-1);
+		Intent intent =new Intent(getActivity(),DetailInfoActivity.class);
+		intent.putExtra("from", "other");
+		intent.putExtra("username", user.getUsername());
+		startActivity(intent);
 	}
 
 }
