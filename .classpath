@@ -3,6 +3,7 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/BmobIM_SDK"/>
 	<classpathentry kind="lib" path="libs/com.umeng.message.lib.jar"/>
 	<classpathentry kind="lib" path="libs/mta-sdk-1.0.0.jar"/>
 	<classpathentry kind="lib" path="libs/open_sdk.jar"/>
@@ -13,5 +14,8 @@
 	<classpathentry kind="lib" path="libs/YoumiSdk_v4.09_2014-06-16.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BmobIM_SDK"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PulltoRefresh_library"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/slidingmenu_library"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

@@ -12,289 +12,38 @@ public final class R {
         public static final int anim_scale=0x7f040000;
         public static final int anim_translate=0x7f040001;
         public static final int loading_animation=0x7f040002;
-        public static final int slide_in_from_bottom=0x7f040003;
-        public static final int slide_in_from_top=0x7f040004;
-        public static final int slide_out_to_bottom=0x7f040005;
-        public static final int slide_out_to_top=0x7f040006;
     }
     public static final class attr {
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindOffset=0x7f010016;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindScrollScale=0x7f010018;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindWidth=0x7f010017;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeDegree=0x7f01001e;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeEnabled=0x7f01001d;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>left</code></td><td>0</td><td></td></tr>
-<tr><td><code>right</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int mode=0x7f010013;
-        /**  BELOW HERE ARE DEPRECEATED. DO NOT USE. 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrAdapterViewBackground=0x7f010010;
-        /**  Style of Animation should be used displayed when pulling. 
-         <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>rotate</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
-</table>
-         */
-        public static final int ptrAnimationStyle=0x7f01000c;
-        /**  Drawable to use as Loading Indicator. Changes both Header and Footer. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawable=0x7f010006;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableBottom=0x7f010012;
-        /**  Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableEnd=0x7f010008;
-        /**  Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableStart=0x7f010007;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableTop=0x7f010011;
-        /**  A drawable to use as the background of the Header and Footer Loading Views 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrHeaderBackground=0x7f010001;
-        /**  Text Color of the Header and Footer Loading Views Sub Header 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrHeaderSubTextColor=0x7f010003;
-        /**  Base text color, typeface, size, and style for Header and Footer Loading Views 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrHeaderTextAppearance=0x7f01000a;
-        /**  Text Color of the Header and Footer Loading Views 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrHeaderTextColor=0x7f010002;
-        /** 
-        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
-        	able to scroll while refreshing, and behaves better. It acheives this by adding
-        	Header and/or Footer Views to the ListView.
-        
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrListViewExtrasEnabled=0x7f01000e;
-        /**  Mode of Pull-to-Refresh that should be used 
-         <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>disabled</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>pullFromStart</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>pullFromEnd</code></td><td>0x2</td><td></td></tr>
-<tr><td><code>both</code></td><td>0x3</td><td></td></tr>
-<tr><td><code>manualOnly</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>pullDownFromTop</code></td><td>0x1</td><td> These last two are depreacted </td></tr>
-<tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
-</table>
-         */
-        public static final int ptrMode=0x7f010004;
-        /**  Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrOverScroll=0x7f010009;
-        /**  A drawable to use as the background of the Refreshable View 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrRefreshableViewBackground=0x7f010000;
-        /** 
-        	Whether the Drawable should be continually rotated as you pull. This only
-        	takes effect when using the 'Rotate' Animation Style.
-        
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrRotateDrawableWhilePulling=0x7f01000f;
-        /**  Whether the user can scroll while the View is Refreshing 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrScrollingWhileRefreshingEnabled=0x7f01000d;
-        /**  Whether the Indicator overlay(s) should be used 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrShowIndicator=0x7f010005;
-        /**  Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrSubHeaderTextAppearance=0x7f01000b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int selectorDrawable=0x7f010020;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selectorEnabled=0x7f01001f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int shadowDrawable=0x7f01001b;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int shadowWidth=0x7f01001c;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int touchModeAbove=0x7f010019;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int touchModeBehind=0x7f01001a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int viewAbove=0x7f010014;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int viewBehind=0x7f010015;
     }
     public static final class color {
-        public static final int base_color_text_black=0x7f0a001b;
-        public static final int bg_black=0x7f0a0000;
-        public static final int bg_gray=0x7f0a0003;
-        public static final int bg_topbar=0x7f0a0002;
-        public static final int bg_white=0x7f0a0001;
-        public static final int blue=0x7f0a000c;
-        public static final int brick_red=0x7f0a0017;
-        public static final int common_bottom_bg=0x7f0a0011;
-        public static final int common_bottom_line=0x7f0a0010;
-        public static final int common_item_focus=0x7f0a000e;
-        public static final int common_lv_focus=0x7f0a001a;
-        public static final int common_lv_normal=0x7f0a0019;
-        public static final int common_title=0x7f0a000a;
-        public static final int common_tv_black=0x7f0a000d;
-        public static final int common_tv_light=0x7f0a000f;
-        public static final int div_white=0x7f0a0009;
-        public static final int gray=0x7f0a0015;
-        public static final int gray_tv=0x7f0a0016;
-        public static final int home_notice_text=0x7f0a0013;
-        public static final int home_point_bg=0x7f0a0012;
-        public static final int notice_bcg=0x7f0a0014;
-        public static final int notice_grey=0x7f0a0018;
-        public static final int text_gray=0x7f0a0005;
-        public static final int text_topbar=0x7f0a0008;
-        public static final int text_white=0x7f0a0006;
-        public static final int text_yellow=0x7f0a0007;
-        public static final int transparent=0x7f0a0004;
-        public static final int white=0x7f0a000b;
+        public static final int base_color_text_black=0x7f06001b;
+        public static final int bg_black=0x7f060000;
+        public static final int bg_gray=0x7f060003;
+        public static final int bg_topbar=0x7f060002;
+        public static final int bg_white=0x7f060001;
+        public static final int blue=0x7f06000c;
+        public static final int brick_red=0x7f060017;
+        public static final int common_bottom_bg=0x7f060011;
+        public static final int common_bottom_line=0x7f060010;
+        public static final int common_item_focus=0x7f06000e;
+        public static final int common_lv_focus=0x7f06001a;
+        public static final int common_lv_normal=0x7f060019;
+        public static final int common_title=0x7f06000a;
+        public static final int common_tv_black=0x7f06000d;
+        public static final int common_tv_light=0x7f06000f;
+        public static final int div_white=0x7f060009;
+        public static final int gray=0x7f060015;
+        public static final int gray_tv=0x7f060016;
+        public static final int home_notice_text=0x7f060013;
+        public static final int home_point_bg=0x7f060012;
+        public static final int notice_bcg=0x7f060014;
+        public static final int notice_grey=0x7f060018;
+        public static final int text_gray=0x7f060005;
+        public static final int text_topbar=0x7f060008;
+        public static final int text_white=0x7f060006;
+        public static final int text_yellow=0x7f060007;
+        public static final int transparent=0x7f060004;
+        public static final int white=0x7f06000b;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -304,13 +53,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f060005;
-        public static final int activity_vertical_margin=0x7f060006;
-        public static final int header_footer_left_right_padding=0x7f060003;
-        public static final int header_footer_top_bottom_padding=0x7f060004;
-        public static final int indicator_corner_radius=0x7f060001;
-        public static final int indicator_internal_padding=0x7f060002;
-        public static final int indicator_right_padding=0x7f060000;
+        public static final int activity_horizontal_margin=0x7f070000;
+        public static final int activity_vertical_margin=0x7f070001;
     }
     public static final class drawable {
         public static final int app_icon=0x7f020000;
@@ -337,138 +81,109 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int common_dlg_bg=0x7f020015;
         public static final int common_title_back=0x7f020016;
         public static final int common_title_shadow=0x7f020017;
-        public static final int default_ptr_flip=0x7f020018;
-        public static final int default_ptr_rotate=0x7f020019;
-        public static final int dialog_bg=0x7f02001a;
-        public static final int et_password_icon=0x7f02001b;
-        public static final int et_user_icon=0x7f02001c;
-        public static final int guide_1=0x7f02001d;
-        public static final int guide_2=0x7f02001e;
-        public static final int guide_3=0x7f02001f;
-        public static final int help=0x7f020020;
-        public static final int ic_launcher=0x7f020021;
-        public static final int ic_navi_about=0x7f020022;
-        public static final int ic_navi_feedback=0x7f020023;
-        public static final int ic_navi_home=0x7f020024;
-        public static final int ic_navi_intro=0x7f020025;
-        public static final int ic_navi_settings=0x7f020026;
-        public static final int icon_msg_search=0x7f020027;
-        public static final int indicator_arrow=0x7f020028;
-        public static final int indicator_bg_bottom=0x7f020029;
-        public static final int indicator_bg_top=0x7f02002a;
-        public static final int login_check_state=0x7f02002b;
-        public static final int login_point=0x7f02002c;
-        public static final int login_point_selected=0x7f02002d;
-        public static final int navi_bg=0x7f02002e;
-        public static final int new_friend_icon=0x7f02002f;
-        public static final int search_clear_normal=0x7f020030;
-        public static final int search_clear_pressed=0x7f020031;
-        public static final int sliding_menu_icon=0x7f020032;
-        public static final int splash_bg=0x7f020033;
-        public static final int splash_icon=0x7f020034;
-        public static final int tab_contact_normal=0x7f020035;
-        public static final int tab_contact_pressed=0x7f020036;
-        public static final int tab_menu_bg=0x7f020037;
-        public static final int tab_menu_contact=0x7f020038;
-        public static final int tab_menu_message=0x7f020039;
-        public static final int tab_menu_personalcenter=0x7f02003a;
-        public static final int tab_menu_text=0x7f02003b;
-        public static final int tab_message_normal=0x7f02003c;
-        public static final int tab_message_pressed=0x7f02003d;
-        public static final int tab_personalcenter_normal=0x7f02003e;
-        public static final int tab_personalcenter_pressed=0x7f02003f;
-        public static final int unread_msg_bg=0x7f020040;
-        public static final int user_delete=0x7f020041;
+        public static final int dialog_bg=0x7f020018;
+        public static final int et_password_icon=0x7f020019;
+        public static final int et_user_icon=0x7f02001a;
+        public static final int guide_1=0x7f02001b;
+        public static final int guide_2=0x7f02001c;
+        public static final int guide_3=0x7f02001d;
+        public static final int help=0x7f02001e;
+        public static final int ic_launcher=0x7f02001f;
+        public static final int ic_navi_about=0x7f020020;
+        public static final int ic_navi_feedback=0x7f020021;
+        public static final int ic_navi_home=0x7f020022;
+        public static final int ic_navi_intro=0x7f020023;
+        public static final int ic_navi_settings=0x7f020024;
+        public static final int icon_msg_search=0x7f020025;
+        public static final int login_check_state=0x7f020026;
+        public static final int login_point=0x7f020027;
+        public static final int login_point_selected=0x7f020028;
+        public static final int navi_bg=0x7f020029;
+        public static final int new_friend_icon=0x7f02002a;
+        public static final int search_clear_normal=0x7f02002b;
+        public static final int search_clear_pressed=0x7f02002c;
+        public static final int sliding_menu_icon=0x7f02002d;
+        public static final int splash_bg=0x7f02002e;
+        public static final int splash_icon=0x7f02002f;
+        public static final int tab_contact_normal=0x7f020030;
+        public static final int tab_contact_pressed=0x7f020031;
+        public static final int tab_menu_bg=0x7f020032;
+        public static final int tab_menu_contact=0x7f020033;
+        public static final int tab_menu_message=0x7f020034;
+        public static final int tab_menu_personalcenter=0x7f020035;
+        public static final int tab_menu_text=0x7f020036;
+        public static final int tab_message_normal=0x7f020037;
+        public static final int tab_message_pressed=0x7f020038;
+        public static final int tab_personalcenter_normal=0x7f020039;
+        public static final int tab_personalcenter_pressed=0x7f02003a;
+        public static final int unread_msg_bg=0x7f02003b;
+        public static final int user_delete=0x7f02003c;
     }
     public static final class id {
-        public static final int action_settings=0x7f070057;
-        public static final int avatar=0x7f070029;
-        public static final int both=0x7f070004;
-        public static final int bt_login=0x7f07001b;
-        public static final int bt_register=0x7f07001e;
-        public static final int btn_add=0x7f07002b;
-        public static final int btn_dlg_cancel=0x7f070024;
-        public static final int btn_dlg_confirm=0x7f070025;
-        public static final int btn_search=0x7f070013;
-        public static final int btn_setting_right=0x7f07004c;
-        public static final int cb_auto_login=0x7f07001a;
-        public static final int cb_remember_account=0x7f070019;
-        public static final int dialog_view=0x7f07004d;
-        public static final int disabled=0x7f070005;
-        public static final int et_find_name=0x7f070012;
-        public static final int et_password=0x7f070017;
-        public static final int et_username=0x7f070016;
-        public static final int fl_inner=0x7f070050;
-        public static final int flip=0x7f07000b;
-        public static final int fullscreen=0x7f07000f;
-        public static final int gridview=0x7f070000;
-        public static final int img=0x7f07004e;
-        public static final int img_friend_avatar=0x7f07002c;
-        public static final int iv1=0x7f070036;
-        public static final int iv2=0x7f070037;
-        public static final int iv3=0x7f070038;
-        public static final int iv_avatar=0x7f070041;
-        public static final int iv_left_btn=0x7f07004a;
-        public static final int iv_msg_avatar=0x7f07002e;
-        public static final int left=0x7f07000d;
-        public static final int linearLayout_checkbox=0x7f070018;
-        public static final int ll=0x7f070035;
-        public static final int ll_logo=0x7f070020;
-        public static final int ll_new_friend=0x7f070026;
-        public static final int login_title=0x7f070015;
-        public static final int lv_add_request=0x7f070022;
-        public static final int lv_contact_man=0x7f070028;
-        public static final int lv_users=0x7f070014;
-        public static final int manualOnly=0x7f070006;
-        public static final int margin=0x7f070010;
-        public static final int message_pull_refresh_list=0x7f070033;
-        public static final int my_info=0x7f07003f;
-        public static final int name=0x7f07002a;
-        public static final int navi_item=0x7f070040;
-        public static final int navi_main=0x7f07003e;
-        public static final int none=0x7f070011;
-        public static final int pullDownFromTop=0x7f070007;
-        public static final int pullFromEnd=0x7f070008;
-        public static final int pullFromStart=0x7f070009;
-        public static final int pullUpFromBottom=0x7f07000a;
-        public static final int pull_to_refresh_image=0x7f070051;
-        public static final int pull_to_refresh_progress=0x7f070052;
-        public static final int pull_to_refresh_sub_text=0x7f070054;
-        public static final int pull_to_refresh_text=0x7f070053;
-        public static final int rb_contact=0x7f07003c;
-        public static final int rb_message=0x7f07003b;
-        public static final int rb_personalcenter=0x7f07003d;
-        public static final int right=0x7f07000e;
-        public static final int rl_title_back=0x7f070049;
-        public static final int rotate=0x7f07000c;
-        public static final int scrollview=0x7f070002;
-        public static final int selected_view=0x7f070003;
-        public static final int slidingmenumain=0x7f070055;
-        public static final int start_btn=0x7f070056;
-        public static final int tab_bar=0x7f07003a;
-        public static final int tipTextView=0x7f07004f;
-        public static final int titlebar=0x7f070048;
-        public static final int tv_app_name=0x7f070021;
-        public static final int tv_dlg_content=0x7f070023;
-        public static final int tv_forget_password=0x7f07001d;
-        public static final int tv_friend_name=0x7f07002d;
-        public static final int tv_msg_name=0x7f07002f;
-        public static final int tv_msg_time=0x7f070031;
-        public static final int tv_msg_unread=0x7f070032;
-        public static final int tv_navi_about=0x7f070047;
-        public static final int tv_navi_feedback=0x7f070045;
-        public static final int tv_navi_intro=0x7f070046;
-        public static final int tv_navi_main=0x7f070043;
-        public static final int tv_navi_settings=0x7f070044;
-        public static final int tv_recent_msg=0x7f070030;
-        public static final int tv_register=0x7f07001c;
-        public static final int tv_signature=0x7f070042;
-        public static final int tv_tip=0x7f070027;
-        public static final int tv_title=0x7f07004b;
-        public static final int tv_welcome=0x7f07001f;
-        public static final int view_pager=0x7f070039;
-        public static final int viewpager=0x7f070034;
-        public static final int webview=0x7f070001;
+        public static final int action_settings=0x7f0b003f;
+        public static final int avatar=0x7f0b0017;
+        public static final int bt_login=0x7f0b0009;
+        public static final int bt_register=0x7f0b000c;
+        public static final int btn_add=0x7f0b0019;
+        public static final int btn_dlg_cancel=0x7f0b0012;
+        public static final int btn_dlg_confirm=0x7f0b0013;
+        public static final int btn_search=0x7f0b0001;
+        public static final int btn_setting_right=0x7f0b003a;
+        public static final int cb_auto_login=0x7f0b0008;
+        public static final int cb_remember_account=0x7f0b0007;
+        public static final int dialog_view=0x7f0b003b;
+        public static final int et_find_name=0x7f0b0000;
+        public static final int et_password=0x7f0b0005;
+        public static final int et_username=0x7f0b0004;
+        public static final int img=0x7f0b003c;
+        public static final int img_friend_avatar=0x7f0b001a;
+        public static final int iv1=0x7f0b0024;
+        public static final int iv2=0x7f0b0025;
+        public static final int iv3=0x7f0b0026;
+        public static final int iv_avatar=0x7f0b002f;
+        public static final int iv_left_btn=0x7f0b0038;
+        public static final int iv_msg_avatar=0x7f0b001c;
+        public static final int linearLayout_checkbox=0x7f0b0006;
+        public static final int ll=0x7f0b0023;
+        public static final int ll_logo=0x7f0b000e;
+        public static final int ll_new_friend=0x7f0b0014;
+        public static final int login_title=0x7f0b0003;
+        public static final int lv_add_request=0x7f0b0010;
+        public static final int lv_contact_man=0x7f0b0016;
+        public static final int lv_users=0x7f0b0002;
+        public static final int message_pull_refresh_list=0x7f0b0021;
+        public static final int my_info=0x7f0b002d;
+        public static final int name=0x7f0b0018;
+        public static final int navi_item=0x7f0b002e;
+        public static final int navi_main=0x7f0b002c;
+        public static final int rb_contact=0x7f0b002a;
+        public static final int rb_message=0x7f0b0029;
+        public static final int rb_personalcenter=0x7f0b002b;
+        public static final int rl_title_back=0x7f0b0037;
+        public static final int start_btn=0x7f0b003e;
+        public static final int tab_bar=0x7f0b0028;
+        public static final int tipTextView=0x7f0b003d;
+        public static final int titlebar=0x7f0b0036;
+        public static final int tv_app_name=0x7f0b000f;
+        public static final int tv_dlg_content=0x7f0b0011;
+        public static final int tv_forget_password=0x7f0b000b;
+        public static final int tv_friend_name=0x7f0b001b;
+        public static final int tv_msg_name=0x7f0b001d;
+        public static final int tv_msg_time=0x7f0b001f;
+        public static final int tv_msg_unread=0x7f0b0020;
+        public static final int tv_navi_about=0x7f0b0035;
+        public static final int tv_navi_feedback=0x7f0b0033;
+        public static final int tv_navi_intro=0x7f0b0034;
+        public static final int tv_navi_main=0x7f0b0031;
+        public static final int tv_navi_settings=0x7f0b0032;
+        public static final int tv_recent_msg=0x7f0b001e;
+        public static final int tv_register=0x7f0b000a;
+        public static final int tv_signature=0x7f0b0030;
+        public static final int tv_tip=0x7f0b0015;
+        public static final int tv_title=0x7f0b0039;
+        public static final int tv_welcome=0x7f0b000d;
+        public static final int view_pager=0x7f0b0027;
+        public static final int viewpager=0x7f0b0022;
     }
     public static final class layout {
         public static final int activity_add_friend=0x7f030000;
@@ -490,56 +205,24 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int layout_top=0x7f030010;
         public static final int loading_dialog_layout=0x7f030011;
         public static final int one=0x7f030012;
-        public static final int pull_to_refresh_header_horizontal=0x7f030013;
-        public static final int pull_to_refresh_header_vertical=0x7f030014;
-        public static final int slidingmenumain=0x7f030015;
-        public static final int three=0x7f030016;
-        public static final int two=0x7f030017;
+        public static final int three=0x7f030013;
+        public static final int two=0x7f030014;
     }
     public static final class menu {
-        public static final int main=0x7f0b0000;
+        public static final int main=0x7f0a0000;
     }
     public static final class raw {
         public static final int notify=0x7f050000;
     }
     public static final class string {
-        public static final int action_settings=0x7f080008;
-        public static final int app_name=0x7f080006;
-        public static final int common_cancel=0x7f080009;
-        public static final int common_confirm=0x7f08000a;
-        public static final int hello_world=0x7f080007;
-        /**  Just use standard Pull Down String when pulling up. These can be set for languages which require it 
- Just use standard Pull Down String when pulling up. These can be set for languages which require it 
-         */
-        public static final int pull_to_refresh_from_bottom_pull_label=0x7f080003;
-        public static final int pull_to_refresh_from_bottom_refreshing_label=0x7f080005;
-        public static final int pull_to_refresh_from_bottom_release_label=0x7f080004;
-        public static final int pull_to_refresh_pull_label=0x7f080000;
-        public static final int pull_to_refresh_refreshing_label=0x7f080002;
-        public static final int pull_to_refresh_release_label=0x7f080001;
+        public static final int action_settings=0x7f080002;
+        public static final int app_name=0x7f080000;
+        public static final int common_cancel=0x7f080003;
+        public static final int common_confirm=0x7f080004;
+        public static final int hello_world=0x7f080001;
     }
     public static final class style {
         /** 
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
-
-        Base application theme for API 11+. This theme completely replaces
-        AppBaseTheme from res/values/styles.xml on API 11+ devices.
-    
- API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
-
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
 
@@ -565,8 +248,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int AppBaseTheme=0x7f090000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
- Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f090001;
         /**  按钮 
@@ -586,565 +267,4 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int tip_dialog=0x7f090005;
     }
-    public static final class styleable {
-        /** Attributes that can be used with a PullToRefresh.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAdapterViewBackground com.chat.app.activity:ptrAdapterViewBackground}</code></td><td> BELOW HERE ARE DEPRECEATED.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAnimationStyle com.chat.app.activity:ptrAnimationStyle}</code></td><td> Style of Animation should be used displayed when pulling.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawable com.chat.app.activity:ptrDrawable}</code></td><td> Drawable to use as Loading Indicator.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableBottom com.chat.app.activity:ptrDrawableBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableEnd com.chat.app.activity:ptrDrawableEnd}</code></td><td> Drawable to use as Loading Indicator in the Footer View.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableStart com.chat.app.activity:ptrDrawableStart}</code></td><td> Drawable to use as Loading Indicator in the Header View.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableTop com.chat.app.activity:ptrDrawableTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.chat.app.activity:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextColor com.chat.app.activity:ptrHeaderSubTextColor}</code></td><td> Text Color of the Header and Footer Loading Views Sub Header </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextAppearance com.chat.app.activity:ptrHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextColor com.chat.app.activity:ptrHeaderTextColor}</code></td><td> Text Color of the Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrListViewExtrasEnabled com.chat.app.activity:ptrListViewExtrasEnabled}</code></td><td>
-        	Whether PullToRefreshListView has it's extras enabled.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrMode com.chat.app.activity:ptrMode}</code></td><td> Mode of Pull-to-Refresh that should be used </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrOverScroll com.chat.app.activity:ptrOverScroll}</code></td><td> Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.chat.app.activity:ptrRefreshableViewBackground}</code></td><td> A drawable to use as the background of the Refreshable View </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRotateDrawableWhilePulling com.chat.app.activity:ptrRotateDrawableWhilePulling}</code></td><td>
-        	Whether the Drawable should be continually rotated as you pull.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrScrollingWhileRefreshingEnabled com.chat.app.activity:ptrScrollingWhileRefreshingEnabled}</code></td><td> Whether the user can scroll while the View is Refreshing </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrShowIndicator com.chat.app.activity:ptrShowIndicator}</code></td><td> Whether the Indicator overlay(s) should be used </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrSubHeaderTextAppearance com.chat.app.activity:ptrSubHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header </td></tr>
-           </table>
-           @see #PullToRefresh_ptrAdapterViewBackground
-           @see #PullToRefresh_ptrAnimationStyle
-           @see #PullToRefresh_ptrDrawable
-           @see #PullToRefresh_ptrDrawableBottom
-           @see #PullToRefresh_ptrDrawableEnd
-           @see #PullToRefresh_ptrDrawableStart
-           @see #PullToRefresh_ptrDrawableTop
-           @see #PullToRefresh_ptrHeaderBackground
-           @see #PullToRefresh_ptrHeaderSubTextColor
-           @see #PullToRefresh_ptrHeaderTextAppearance
-           @see #PullToRefresh_ptrHeaderTextColor
-           @see #PullToRefresh_ptrListViewExtrasEnabled
-           @see #PullToRefresh_ptrMode
-           @see #PullToRefresh_ptrOverScroll
-           @see #PullToRefresh_ptrRefreshableViewBackground
-           @see #PullToRefresh_ptrRotateDrawableWhilePulling
-           @see #PullToRefresh_ptrScrollingWhileRefreshingEnabled
-           @see #PullToRefresh_ptrShowIndicator
-           @see #PullToRefresh_ptrSubHeaderTextAppearance
-         */
-        public static final int[] PullToRefresh = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
-            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
-            0x7f010010, 0x7f010011, 0x7f010012
-        };
-        /**
-          <p>
-          @attr description
-           BELOW HERE ARE DEPRECEATED. DO NOT USE. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrAdapterViewBackground
-        */
-        public static final int PullToRefresh_ptrAdapterViewBackground = 16;
-        /**
-          <p>
-          @attr description
-           Style of Animation should be used displayed when pulling. 
-
-
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>rotate</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrAnimationStyle
-        */
-        public static final int PullToRefresh_ptrAnimationStyle = 12;
-        /**
-          <p>
-          @attr description
-           Drawable to use as Loading Indicator. Changes both Header and Footer. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrDrawable
-        */
-        public static final int PullToRefresh_ptrDrawable = 6;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#ptrDrawableBottom}
-          attribute's value can be found in the {@link #PullToRefresh} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.chat.app.activity:ptrDrawableBottom
-        */
-        public static final int PullToRefresh_ptrDrawableBottom = 18;
-        /**
-          <p>
-          @attr description
-           Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrDrawableEnd
-        */
-        public static final int PullToRefresh_ptrDrawableEnd = 8;
-        /**
-          <p>
-          @attr description
-           Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrDrawableStart
-        */
-        public static final int PullToRefresh_ptrDrawableStart = 7;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#ptrDrawableTop}
-          attribute's value can be found in the {@link #PullToRefresh} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.chat.app.activity:ptrDrawableTop
-        */
-        public static final int PullToRefresh_ptrDrawableTop = 17;
-        /**
-          <p>
-          @attr description
-           A drawable to use as the background of the Header and Footer Loading Views 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrHeaderBackground
-        */
-        public static final int PullToRefresh_ptrHeaderBackground = 1;
-        /**
-          <p>
-          @attr description
-           Text Color of the Header and Footer Loading Views Sub Header 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrHeaderSubTextColor
-        */
-        public static final int PullToRefresh_ptrHeaderSubTextColor = 3;
-        /**
-          <p>
-          @attr description
-           Base text color, typeface, size, and style for Header and Footer Loading Views 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrHeaderTextAppearance
-        */
-        public static final int PullToRefresh_ptrHeaderTextAppearance = 10;
-        /**
-          <p>
-          @attr description
-           Text Color of the Header and Footer Loading Views 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrHeaderTextColor
-        */
-        public static final int PullToRefresh_ptrHeaderTextColor = 2;
-        /**
-          <p>
-          @attr description
-          
-        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
-        	able to scroll while refreshing, and behaves better. It acheives this by adding
-        	Header and/or Footer Views to the ListView.
-        
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrListViewExtrasEnabled
-        */
-        public static final int PullToRefresh_ptrListViewExtrasEnabled = 14;
-        /**
-          <p>
-          @attr description
-           Mode of Pull-to-Refresh that should be used 
-
-
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>disabled</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>pullFromStart</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>pullFromEnd</code></td><td>0x2</td><td></td></tr>
-<tr><td><code>both</code></td><td>0x3</td><td></td></tr>
-<tr><td><code>manualOnly</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>pullDownFromTop</code></td><td>0x1</td><td> These last two are depreacted </td></tr>
-<tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrMode
-        */
-        public static final int PullToRefresh_ptrMode = 4;
-        /**
-          <p>
-          @attr description
-           Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrOverScroll
-        */
-        public static final int PullToRefresh_ptrOverScroll = 9;
-        /**
-          <p>
-          @attr description
-           A drawable to use as the background of the Refreshable View 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrRefreshableViewBackground
-        */
-        public static final int PullToRefresh_ptrRefreshableViewBackground = 0;
-        /**
-          <p>
-          @attr description
-          
-        	Whether the Drawable should be continually rotated as you pull. This only
-        	takes effect when using the 'Rotate' Animation Style.
-        
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrRotateDrawableWhilePulling
-        */
-        public static final int PullToRefresh_ptrRotateDrawableWhilePulling = 15;
-        /**
-          <p>
-          @attr description
-           Whether the user can scroll while the View is Refreshing 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrScrollingWhileRefreshingEnabled
-        */
-        public static final int PullToRefresh_ptrScrollingWhileRefreshingEnabled = 13;
-        /**
-          <p>
-          @attr description
-           Whether the Indicator overlay(s) should be used 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrShowIndicator
-        */
-        public static final int PullToRefresh_ptrShowIndicator = 5;
-        /**
-          <p>
-          @attr description
-           Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.chat.app.activity:ptrSubHeaderTextAppearance
-        */
-        public static final int PullToRefresh_ptrSubHeaderTextAppearance = 11;
-        /** Attributes that can be used with a SlidingMenu.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SlidingMenu_behindOffset com.chat.app.activity:behindOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindScrollScale com.chat.app.activity:behindScrollScale}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindWidth com.chat.app.activity:behindWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeDegree com.chat.app.activity:fadeDegree}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeEnabled com.chat.app.activity:fadeEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_mode com.chat.app.activity:mode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorDrawable com.chat.app.activity:selectorDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorEnabled com.chat.app.activity:selectorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowDrawable com.chat.app.activity:shadowDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowWidth com.chat.app.activity:shadowWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeAbove com.chat.app.activity:touchModeAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeBehind com.chat.app.activity:touchModeBehind}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewAbove com.chat.app.activity:viewAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewBehind com.chat.app.activity:viewBehind}</code></td><td></td></tr>
-           </table>
-           @see #SlidingMenu_behindOffset
-           @see #SlidingMenu_behindScrollScale
-           @see #SlidingMenu_behindWidth
-           @see #SlidingMenu_fadeDegree
-           @see #SlidingMenu_fadeEnabled
-           @see #SlidingMenu_mode
-           @see #SlidingMenu_selectorDrawable
-           @see #SlidingMenu_selectorEnabled
-           @see #SlidingMenu_shadowDrawable
-           @see #SlidingMenu_shadowWidth
-           @see #SlidingMenu_touchModeAbove
-           @see #SlidingMenu_touchModeBehind
-           @see #SlidingMenu_viewAbove
-           @see #SlidingMenu_viewBehind
-         */
-        public static final int[] SlidingMenu = {
-            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
-            0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a,
-            0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e,
-            0x7f01001f, 0x7f010020
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#behindOffset}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.chat.app.activity:behindOffset
-        */
-        public static final int SlidingMenu_behindOffset = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#behindScrollScale}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.chat.app.activity:behindScrollScale
-        */
-        public static final int SlidingMenu_behindScrollScale = 5;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#behindWidth}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.chat.app.activity:behindWidth
-        */
-        public static final int SlidingMenu_behindWidth = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#fadeDegree}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.chat.app.activity:fadeDegree
-        */
-        public static final int SlidingMenu_fadeDegree = 11;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#fadeEnabled}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.chat.app.activity:fadeEnabled
-        */
-        public static final int SlidingMenu_fadeEnabled = 10;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#mode}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>left</code></td><td>0</td><td></td></tr>
-<tr><td><code>right</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name com.chat.app.activity:mode
-        */
-        public static final int SlidingMenu_mode = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#selectorDrawable}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.chat.app.activity:selectorDrawable
-        */
-        public static final int SlidingMenu_selectorDrawable = 13;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#selectorEnabled}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.chat.app.activity:selectorEnabled
-        */
-        public static final int SlidingMenu_selectorEnabled = 12;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#shadowDrawable}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.chat.app.activity:shadowDrawable
-        */
-        public static final int SlidingMenu_shadowDrawable = 8;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#shadowWidth}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.chat.app.activity:shadowWidth
-        */
-        public static final int SlidingMenu_shadowWidth = 9;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#touchModeAbove}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name com.chat.app.activity:touchModeAbove
-        */
-        public static final int SlidingMenu_touchModeAbove = 6;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#touchModeBehind}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name com.chat.app.activity:touchModeBehind
-        */
-        public static final int SlidingMenu_touchModeBehind = 7;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#viewAbove}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.chat.app.activity:viewAbove
-        */
-        public static final int SlidingMenu_viewAbove = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.chat.app.activity.R.attr#viewBehind}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.chat.app.activity:viewBehind
-        */
-        public static final int SlidingMenu_viewBehind = 2;
-    };
 }

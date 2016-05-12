@@ -33,7 +33,7 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 
 public class MainActivity extends BaseActivity implements
 		OnCheckedChangeListener, OnPageChangeListener, EventListener {
-
+    //²âÊÔGitÌá½»celkdlfksldkflsdkfldsfsdfsdfsdfs
 	private ViewPager mViewPager;
 	private RadioButton tab_message, tab_contact, tab_personalcenter; // µ×²¿Tab
 	private RadioGroup tabs;
