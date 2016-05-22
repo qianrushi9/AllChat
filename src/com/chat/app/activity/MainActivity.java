@@ -34,7 +34,7 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 public class MainActivity extends BaseActivity implements
 		OnCheckedChangeListener, OnPageChangeListener, EventListener {
     //测试Git提交celkdlfksldkflsdkfldsfsdfsdfsdfs
-	//sdfsdgsdgsdg徐生天下无敌
+	//sdfsdgsdgsdg徐生天下无敌Testbranch shuixingge
 	private ViewPager mViewPager;
 	private RadioButton tab_message, tab_contact, tab_personalcenter; // 底部Tab
 	private RadioGroup tabs;
@@ -50,7 +50,7 @@ public class MainActivity extends BaseActivity implements
 	MyFragmentPagerAdapter fgPagerAdapter = null;
 	NewMsgBroadCastReceiver newBroadcast;
 	TagBroadcastReceiver tagBroadcast;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
