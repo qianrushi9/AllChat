@@ -18,7 +18,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import cn.bmob.im.bean.BmobChatUser;
 import cn.bmob.im.db.BmobDB;
-
 import com.chat.app.activity.DetailInfoActivity;
 import com.chat.app.activity.NewFriendActivity;
 import com.chat.app.activity.R;
